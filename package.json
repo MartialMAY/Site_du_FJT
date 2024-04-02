@@ -1,0 +1,29 @@
+{
+  "name": "website-fjt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "build": "echo 'Build step: Your build commands here'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@netlify/functions": "^2.5.1",
+    "@types/express": "^4.17.21",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.2",
+    "express": "^4.18.3",
+    "nodemailer": "^6.9.9",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": []
+}
